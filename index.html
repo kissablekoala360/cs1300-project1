@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link href="./assets/index.css" rel="stylesheet">
+
+        <title>Let's Redsign the Ratty</title>
+    </header>
+
+    <body>
+        <section id="home" class="header-wrapper">
+            <div class="nav-wrapper">
+                <nav class="flex items-center justify-between p-6">
+                    <div class="flex items-center">
+                        <p id="title"><span class="bolder"><a href="index.html#home">Redesign Ratty</a></span></p>
+                    </div>
+                    <div class="flex nav-items">
+                        <a href="index.html#introduction">Introduction</a>
+                        <a href="index.html#observations">Observations</a>
+                        <a href="index.html#people">People</a>
+                        <a href="index.html#interactions">Interactions</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="header-banner">
+                <div class="">
+                    <h1 id="title">The Ratty's</h1>
+                    <h1 id="title" >Food Disposal Station:</h1>
+                    <h1 id="title" class="fade-in-slow"><span class="bolder fade">IT'S TERRIBLE!</span></h1>
+                    <a href="index.html#introduction"><button class="mt-3 fade-in-slower">Let's talk about it</button></a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="introduction" id="introduction">
+            <div class="introduction-card-wrapper">
+                <div class="food-floaters" id="food1"></div>
+                <div class="introduction-card">
+                    <div class="introduction-image"></div>
+                    <div class="flex-column justify-center items-center p-2">
+                        <h3 class="bolder text-left" >Overview</h3>
+                        <p>The Ratty's food disposal area is made of two parts. Part one is the composting section and part two is the place where cutlery and crockery is placed. These modules are stacked on both sides of an aisle seperated by a walkway.</p>
+                    </div>
+                </div>
+                
+                <!-- Asset 5 -->
+                <div class="food-floaters" id="food2" style="background-image: url('./assets/images/dishes/Asset\ 2.png'); top: 47%; left: -12%; transform: rotate(-40deg) scale(2);"></div>
+                <div class="introduction-card">
+                    <div class="introduction-image" style="background-image: url('./assets/images/sketches/cutlery.png');"></div>
+                    <div class="flex-column justify-center items-center p-2">
+                        <h3 class="bolder text-left">2. Cutlery & Crockery</h3>
+                        <p>This area is where people sort their cutlery & crockery into the correct corresponding bins. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="introduction-card-wrapper" style="padding-top: 200px;"> 
+                <!-- Asset 3 -->
+                <div class="food-floaters" id="food3" style="background-image: url('./assets/images/dishes/Asset\ 1.png'); top: 19%;left: 74%;transform: rotate(40deg) scale(2);"></div>
+                <div class="introduction-card">
+                    <div class="introduction-image" style="background-image: url('./assets/images/sketches/compost.png'); "></div>
+                    <div class="flex-column justify-center items-center p-2">
+                        <h3 class="bolder text-right">1. Composting</h3>
+                        <p>This area is where people scrape their remaing food waste into the bin. People also through away non-resusable cutlery and crockery.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="observations" id="observations">
+            <div class="interview-card">
+                <div class="interview-icon" style="background-image: url('./assets/images/users/glass.png');"></div>
+                <div class="interview-info">
+                    <h3 class="bolder">Visual Observations</h3>
+                    <ul>
+                        <li>Users with non-resuable plates skipped station two entirely.</li>
+                        <li>At frequenty class times (1 pm), long lines form.</li>
+                        <li>Sometimes compost cans from station one are covered with plastic and are unusable.</li>
+                        <li>On occasion dining center staff stand at the end of the station and help students sort plates.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="interview-card">
+                <div class="interview-info" style="width: 65%;">
+                    <h3 class="bolder">Hands On Interviews</h3>
+
+                    <div class="interview-accordian-name">
+                        <p>On average, how many times do you visit the Ratty per week?</p>
+                        <div class="accordian-expand">+</div>
+                    </div>
+                    <div class="accordian-panel">The interviewed users tended to go to the Ratty 8-12 times a week.</div>
+
+                    <div class="interview-accordian-name">
+                        <p>On a scale of 1-6, how frequently do you get food in the Ratty and eat elsewhere?</p>
+                        <div class="accordian-expand">+</div>
+                    </div>
+                    <div class="accordian-panel">Only one of the users interviewed takes food out of the Ratty. They answered a frequency of 2.</div>
+
+                    <div class="interview-accordian-name">
+                        <p>Do you prefer ceramic bowls, plates, and cutlery over paper/plastic ones?</p>
+                        <div class="accordian-expand">+</div>
+                    </div>
+                    <div class="accordian-panel">All but one of the users answered ceramic bowls, plates, and cutlery.</div>
+
+                    <div class="interview-accordian-name">
+                        <p>What are three characteristics which make you prefer that type of bowls, plates, and cutlery?</p>
+                        <div class="accordian-expand">+</div>
+                    </div>
+                    <div class="accordian-panel">For those who answered that they enjoyed ceramic plates they list the following factors: cutlery and crockery is more rigid and bigger and reuseable. The user who answered paper said that it was easier to throw away after their meal.</div>
+
+                    <div class="interview-accordian-name">
+                        <p>What are the factors which affect your speed?</p>
+                        <div class="accordian-expand">+</div>
+                    </div>
+                    <div class="accordian-panel">Users said that speed was affected by how many people were in the Ratty, the number of dishes they had, and wether or not they were walking with friends. They explained all these factors slow down the proccess. The user who uses paper plates said that it was fast to throw away their food.</div>
+
+                    <div class="interview-accordian-name">
+                        <p>Do you move linearly through the Ratty food disposal system? Explain the factors which affect your movement.</p>
+                        <div class="accordian-expand">+</div>
+                    </div>
+                    <div class="accordian-panel">Both reuseable cutlery and crockery users said that they had to place their cups down and then move back to the beggning to compost their food. The user who uses paper plates travels linearly and just throws away their cutlery and crockery.</div>
+
+                    <div class="interview-accordian-name">
+                        <p>Give one positive and one negative piece of feedback regarding the Ratty food disposal system.</p>
+                        <div class="accordian-expand">+</div>
+                    </div>
+                    <div class="accordian-panel">Users enjoyed the music in the Ratty, that we are composting our food, and when there are staff members helping with food disposal. Users did not like that cups did not come first, that the spaces between the statsions were so close, and that some other users do not fully scrape their plates. </div>
+                </div>
+                <div class="interview-icon" ></div>
+            </div>
+        </section>
+
+        <section class="people" id="people">
+            <div class="people-card">
+                <h1 id="title" class="bolder pt-8" style="line-height: 0; color: black; font-family: DolceVitaHeavy;">The People</h1>
+                <p>Let's take a look at the differnt personas who use the Ratty's food disposal system.</p>
+
+                <div class="interview-accordian-name" id="brown">
+                    <div class="people-icon" style="background-image: url(./assets/images/users/user2.png);"></div>
+                    <p id="big">Persona 1: Meet our friend Jenny</p>
+                    <div class="accordian-expand">+</div>
+                </div>
+                <div class="accordian-panel">
+                    <p>Jenny is a fulltime Brown University student. She is standing in the Ratty trying to dispose of her food to get to class on time. Despite choosing trashable items she has to wait. Jenny repersents the persona of those who perfer to throw away all their waste.</p>
+                    <div class="empathy-grid"></div>
+                </div>
+                <div class="interview-accordian-name" id="brown">
+                    <div class="people-icon" style="background-image: url(./assets/images/users/user1.png);"></div>
+                    <p id="big">Persona 2: Meet our friend Ricky</p>
+                    <div class="accordian-expand">+</div>
+                </div>
+                <div class="accordian-panel">
+                    <p>Rick is a fulltime Brown University student. Ricky has plenty of time before his next class. He is waiting and then dispossing of his food. Ricky repersents those users who use the reusable cutlery and crockery.</p>
+                    <div class="empathy-grid" style="background-image: url('./assets/images/empathy/empathy2.png');"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactions" id="interactions">
+            <div class="interactions-card">
+                <h1 id="title" class="bolder pt-8" style="line-height: 0; font-family: DolceVitaHeavy;">Interactions</h1>
+                <p>Given everything that we have learend from our observations, interviews, and empathy maps, let us document how a person truly interacts with the Ratty food disposal system. We will follow Ricky through his Journey through the Ratty.</p>
+                <div class="interactions-story-board"></div>
+            </div>
+        </section>
+
+    </body>
+
+    <footer>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="./assets/scripts/scroll-animations.js"></script>
+    </footer>
+
+</html>
